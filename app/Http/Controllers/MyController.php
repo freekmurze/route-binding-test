@@ -2,9 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\OtherModel;
 use App\User;
-use Illuminate\Http\Request;
 
 class MyController extends Controller
 {
