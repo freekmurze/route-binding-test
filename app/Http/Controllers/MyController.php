@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 
 class MyController extends Controller
 {
-    public function index(OtherModel $otherModel, User $user)
+    public function index(User $user)
     {
-        dd('other model and user found');
+        dd('user found');
     }
 }
